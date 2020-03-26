@@ -1,0 +1,161 @@
+/*
+CSS
+
+Cascading Style Sheets
+
+BOX 
+
+Conteudo da caixa
+    Preenchimentos  
+    Espaçamentos
+    Posicionamentos
+    Bordas
+
+*/
+
+body{
+    background: #e5e5e5;;
+    columns: #24282b;;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif
+}
+
+.hide {
+    display:none;
+}
+
+a{
+    color: #ff5e84;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff5e84;
+    font-weight: bold;
+}
+
+p, .description{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+#container{
+    width: 80%;
+    max-width: 980px;
+
+    margin: 40px auto;
+
+    display: flex;
+}
+
+#intro{
+    width: 300px;
+    
+    margin-right: 20px;
+}
+
+main{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+#buttons{
+    margin-bottom: 32px;
+    margin-right: 20px;
+    margin-top: 32px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+button{
+    color:#ff5e84;
+    border: none;
+    font-weight: bold;
+    background:none;
+
+    font-size: 14px;
+    font-weight:bold;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+
+    cursor: pointer;
+
+    outline: none;
+}
+
+button:hover{
+    text-decoration: underline;
+}
+
+button.fat:hover{
+    text-decoration: none;
+
+}
+
+.fat{
+    color: white;
+    background:#ff5e84;
+
+    width: 150px;
+    height: 40px;
+
+    border-radius: 6px;
+
+    box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.16);
+}
+
+#buttons, footer{
+    text-align: center;
+
+    font-size: 14px;
+    font-weight:bold;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+
+    color: #777777;
+}
+
+footer a{
+    opacity: 0.7;
+}
+
+.idea{
+    display: flex;
+
+    margin-bottom: 32px;
+
+    padding: 32px;
+
+    background-color: #FFF;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.1);
+    border-radius: 8px;
+    
+}
+
+.idea img{
+    width: 60px;
+    height: 60px;
+
+    margin-right: 32px;
+}
+
+.idea h3{
+    margin: 0;
+}
+
+.idea p{
+    margin: 8px 0;
+    color: #777777
+}
+
+.idea .description {
+    margin: 16px 0;
+}
+
+.imgContainer {
+    justify-content: start;
+    border-width:  2px;
+}
